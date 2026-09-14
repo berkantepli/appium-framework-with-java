@@ -32,5 +32,9 @@ public class SwipeDemo extends BaseTest {
     // feature login branch
     // stash demo
     // Pull Request demo
+<<<<<<< HEAD
     // Main Commit
+=======
+    // Rebase Demo 1
+>>>>>>> 22622d3 (Rebase demo 1)
 }
