@@ -28,5 +28,6 @@ public class SwipeDemo extends BaseTest {
                 "false");
     }
     // MAIN BRANCH
+    // FEATURE BRANCH
     // feature login branch
 }
