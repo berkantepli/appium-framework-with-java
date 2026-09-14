@@ -30,4 +30,6 @@ public class SwipeDemo extends BaseTest {
     // MAIN BRANCH
     // FEATURE BRANCH
     // feature login branch
+    // stash demo
+    // Pull Request demo
 }
