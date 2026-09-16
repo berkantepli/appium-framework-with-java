@@ -35,4 +35,7 @@ public class SwipeDemo extends BaseTest {
     // Main Commit
     // Rebase Demo 1
     // Rebase Demo 2
+    // Interactive 1
+    // Interactive 2
+    // Interactive 3
 }
