@@ -43,4 +43,5 @@ public class SwipeDemo extends BaseTest {
     // Reset 1
     // Reset 2
     // Reflog 1
+    // Reflog 2
 }
