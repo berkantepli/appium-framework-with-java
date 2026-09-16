@@ -38,9 +38,6 @@ public class SwipeDemo extends BaseTest {
     // Interactive 1
     // Interactive 2
     // Interactive 3
-<<<<<<< HEAD
-=======
     // Cherry Pick 1
     // Cherry Pick 2
->>>>>>> 63134a2 (Cherry Pick 2)
 }
