@@ -41,4 +41,5 @@ public class SwipeDemo extends BaseTest {
     // Cherry Pick 1
     // Cherry Pick 2
     // Reset 1
+    // Reset 2
 }
