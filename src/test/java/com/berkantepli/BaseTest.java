@@ -30,8 +30,14 @@ public class BaseTest {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("emulator-5554");
-        //options.setApp(System.getProperty("user.dir") + "/src/test/resources/ApiDemos-debug.apk");
+        // options.setApp(System.getProperty("user.dir") +
+        // "/src/test/resources/ApiDemos-debug.apk");
         options.setApp(System.getProperty("user.dir") + "/src/test/resources/General-Store.apk");
+
+        // ChromeDriver konumu
+        options.setCapability(
+                "appium:chromedriverExecutable",
+                "/Users/berkantepli/Desktop/Appium_demo/chromedriver-mac-arm64/chromedriver");
 
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
         driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
@@ -59,6 +65,11 @@ public class BaseTest {
                 "elementId", ((RemoteWebElement) element).getId(),
                 "direction", direction,
                 "percent", 0.75));
+    }
+
+    public Double getFormattedAmount(String amount) {
+        Double price = Double.parseDouble(amount.substring(1));
+        return price;
     }
 
     @AfterClass
